@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menus {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(63, 63, 63);
+    padding: 15px;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+.banner-container {
+    height: 100vh;
+    background-image: url('./images/offic.jpg'), linear-gradient(rgb(129, 129, 129), rgb(74, 74, 68), rgb(112, 103, 74));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#button{
+    padding: 10px 40px;
+    color: aquamarine;
+    background-color: red;
+    box-shadow: 5px;
+    border-style: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    
+}
+#title{
+    margin-bottom: 15px;
+}

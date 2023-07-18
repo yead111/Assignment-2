@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 30px 40px;
+    /* background-size: 100vh; */
+}
+
+.header-design {
+    margin: auto;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+    padding: 30px 60px;
+}
+
+.pngwing {
+    height: 600px;
+    width: 400px;
+    position:relative;
+    display: block;
+    top: 30px;
+
+
+}
+
+.hot {
+    font-size: 30px;
+}
+
+.Shop-Now {
+    border: none;
+    background-color: #E55473;
+    color: aliceblue;
+    padding: 13px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    display: flex;  
+}
+
+.Deal {
+    margin-top: 45px;
+    width: 200px;
+    width: 300px;
+    margin-bottom: 45px;
+}
+
+.Our-Featured {
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+.all-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.all-paragraph-img {
+    display: flex;
+    padding: auto;
+    margin-bottom: 150px;
+    gap: 10px;
+}
+
+.border-img {
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-left: 20px;
+    color: #272727;
+}
+
+.border-img-2 {
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.border-img-3 {
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.Hot-Dea {
+    text-align: center;
+    padding: 30px 50px;
+    margin-top: 150px;
+    border: none;
+}
+
+.Sale-Up {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    text-align: center;
+    gap: 100px;
+}
+
+.Instagram {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    margin-top: 80px;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.images {
+    display: flex;
+    size-adjust: auto;
+    gap: 8px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.four-imsge {
+    height: 350px;
+    width: 270px;
+}
+
+.Latest-Deals {
+    width: 850px;
+    height: 350px;
+    background-image: url('./images/Rectangle\ 9.png');
+    /* background-size: 1100px 600px; */
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    margin-right: 80px;
+    position:relative;
+    margin-left: 190px;
+    
+    
+
+}
+
+.Deals {
+    text-align: center;
+    /* display: block; */
+    align-items: center;
+    
+
+    
+    
+}
+
+.Flower {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 60px;
+    background-color: black;
+    height: 350px;
+    background-position: center;
+    align-items: center;
+}
+
+.Shop-paragraph {
+    color: aliceblue;
+
+}
+.Subscribe{
+    display: flex;
+    display: inline;
+    margin-top: 5px;
+    
+}
+span{
+    color: #ff073d;
+}
+body{
+    background: #f6f6f6;
+}
+.box{
+    width: 320px;
+    height: 100px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px;
+    padding: 40px 80px;
+    margin-top: 40px;
+    margin-left: 90px;
+    
+}
+.box .heading{
+    background: #E55473;
+    padding: 10px;
+    text-align: center;
+ 
+
+}
+.FAQs{
+    padding: 10px 20px;
+    position: relative;
+    left: 90px;
+
+}
+.hallo{
+    text-align: center;
+    position: relative;
+    top: 95px;
+    padding: auto;
+}
