@@ -1,7 +1,5 @@
 * {
     margin: 0;
-
-
 }
 
 nav>.logo samp {
@@ -11,10 +9,11 @@ nav>.logo samp {
 nav {
     display: flex;
     border: 2px solid black;
+    min-height: 50px;
     justify-content: space-between;
     align-items: center;
-
-
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 .logo-text {
@@ -25,24 +24,68 @@ nav {
     display: flex;
     gap: 10px;
 }
-.logo img{
+
+.logo img {
     width: 50px;
     height: 40px;
     padding-top: 6px;
 }
+
 .header-text {
     display: flex;
     align-items: center;
-    gap:40px;
-
+    gap: 40px;
 }
 
 .header-text a {
     text-decoration: none;
 }
-.header-text button{
+
+.header-text button {
     background-color: #d7d6d6;
     padding: 10px 12px;
     border: 0px;
     border-radius: 5px;
+}
+
+
+
+
+.banner-section{
+    border: 1px solid red;
+    height: 500px;
+    width: 50%;
+    display: flex;
+
+}
+
+
+.banner-text{
+    background-image: url(./images/Group\ 14.png);
+    width: 901px;
+height: 700px;
+flex-shrink: 0;
+}
+.banner-img{
+    border: 2px solid blue;
+    height: 500px;
+    width: 50%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+   nav, .header-text {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    
+    nav{
+        padding: 20px;
+    }
 }
