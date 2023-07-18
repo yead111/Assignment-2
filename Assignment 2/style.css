@@ -1,3 +1,48 @@
-*{
+* {
     margin: 0;
+
+
+}
+
+nav>.logo samp {
+    color: #FF42A5;
+}
+
+nav {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.logo-text {
+    font-size: 45px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+.logo img{
+    width: 50px;
+    height: 40px;
+    padding-top: 6px;
+}
+.header-text {
+    display: flex;
+    align-items: center;
+    gap:40px;
+
+}
+
+.header-text a {
+    text-decoration: none;
+}
+.header-text button{
+    background-color: #d7d6d6;
+    padding: 10px 12px;
+    border: 0px;
+    border-radius: 5px;
 }
