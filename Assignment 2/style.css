@@ -498,6 +498,7 @@ footer {
     }
 .banner-section{
     flex-direction: column;
+    
 }
     nav {
         padding: 20px;
